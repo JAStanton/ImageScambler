@@ -1,8 +1,8 @@
 <?php 
 	class scramble {
 		
-		var $block_w = 50;
-		var $block_h = 50;
+		var $block_w = 100;
+		var $block_h = 100;
 		var $prefix = "shuffled_";
 
 		function __construct($imgname) {
@@ -40,10 +40,9 @@
 		}
 
 
-		public function showImage(){
-			header('Content-Type: image/jpeg');
-			imagejpeg($this->image);
-			imagedestroy($this->image);
+		public function showOriginal(){
+			echo "<img src='".$this->imgname."' alt=''>";
+
 		}
 
 		public function showShuffled(){
@@ -199,15 +198,15 @@
 	    else return (string)round((microtime(true)-$a),5);
 	}
 
-	$protected_image = new scramble("infographic.jpg");
+	$protected_image = new scramble("bear.jpg");
 	gentime();
-	
 	$protected_image->scramble();
-
 	echo 'Generated in '.gentime().' seconds. <br>';
 
 
 	$protected_image->showShuffled();
 	$protected_image->unShuffle();
+
+	$protected_image->showOriginal();
 
 ?>
