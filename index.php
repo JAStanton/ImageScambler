@@ -1,4 +1,17 @@
 <?php 
+	/**
+	 * Image Scramble Class
+	 *
+	 * This class will help prevent image stealing by
+	 * scrambling the image and then using basic html /css
+	 * to unscramble for the viewer, if the viewer
+	 * decides to steal the image they will have to do a
+	 * lot more work than they initially thought to steal
+	 * or unscramble the image.
+	 *
+	 * @author Jonathan Stanton
+	 * @website http://www.jastanton.com
+	 */
 	class scramble {
 		
 		var $block_w = 100;
