@@ -1,12 +1,10 @@
 <?php 
-
 	class scramble {
 		
-		var $block_w = 10;
-		var $block_h = 10;
+		var $block_w = 50;
+		var $block_h = 50;
 		var $prefix = "shuffled_";
 
-	
 		function __construct($imgname) {
 			
 			$this->imgname = $imgname;
@@ -115,7 +113,7 @@
 			//save
 			switch($this->mime){
 				case "image/jpeg":
-					imagejpeg($im2, $this->prefix . $this->imgname);
+					imagejpeg($im2, $this->prefix . $this->imgname,100);
 					break;
 				case "image/gif":
 					imagegif($im2, $this->prefix . $this->imgname);
@@ -201,12 +199,12 @@
 	    else return (string)round((microtime(true)-$a),5);
 	}
 
-	$protected_image = new scramble("test.jpg");
+	$protected_image = new scramble("infographic.jpg");
 	gentime();
 	
 	$protected_image->scramble();
 
-	echo 'Generated in '.gentime().' seconds.';
+	echo 'Generated in '.gentime().' seconds. <br>';
 
 
 	$protected_image->showShuffled();
