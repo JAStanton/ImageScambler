@@ -1,6 +1,6 @@
 #Using this tool
 
-Background:
+Background: 
 ----------
 
 The purpose of this image scrambler was more of a personal challenge than anything. I had that client want to protect images any way possible and a coworker (Ben) and I worked on this idea on the side but unfortunately never got an opportunity to implement this strategy.
