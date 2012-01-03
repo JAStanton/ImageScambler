@@ -5,7 +5,7 @@ Background:
 
 The purpose of this image scrambler was more of a personal challenge than anything. I had that client want to protect images any way possible and a coworker (Ben) and I worked on this idea on the side but unfortunately never got an opportunity to implement this strategy.
 
-The reason why I'm proud of it was because Ben was a lot better at programming than myself and when we worked together we would challenge each other to write the most efficient code, a healthy competition that spurred on fast learning techniques. We were both laid off before I was able to complete my version of this application but I'm proud to announce that for once I was finally able to write a more efficient code that I think you would be proud of Ben :) your move!
+The reason why I'm proud of it was because Ben was a lot better at programming than myself and when we worked together we would challenge each other to write the most efficient code, a healthy competition that spurred on fast learning techniques. We were both laid off before I was able to complete my version of this application but I'm proud to announce that for once I was finally able to write a more efficient code. I think you would be proud of me Ben :) your move!
 
 Unique Challenges:
 ----------------
