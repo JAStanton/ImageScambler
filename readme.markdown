@@ -15,7 +15,7 @@ This may seem fairly straight forward but a huge difficulty that I faced writing
 Example:
 --------
 > 	$protected_image = new scramble("bear.jpg"); /* instantiate */
-	$protected_image->scramble(); /* actual algorithm, writes to disk */
-	$protected_image->showShuffled(); /* Displays the shuffled image */
-	$protected_image->unShuffle(); /* unShuffle and output HTML */
-	$protected_image->showOriginal(); /* Displays original image */
+>   $protected_image->scramble(); /* actual algorithm, writes to disk */
+>   $protected_image->showShuffled(); /* Displays the shuffled image */
+>   $protected_image->unShuffle(); /* unShuffle and output HTML */
+>   $protected_image->showOriginal(); /* Displays original image */
